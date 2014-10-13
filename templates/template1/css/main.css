@@ -1,0 +1,53 @@
+body{
+	background:url('../../../images/temp1_bg.png') #FFFFFF repeat;
+}
+a{
+	color:#084B8A;
+	text-decoration:none;
+}
+div#container{
+	border:0px;
+	border-top:0px;
+	margin:20px auto;
+	width:850px;
+	background-color:transparent;
+}
+div#navi{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	clear: both;
+}
+* html div#navi {  /* Korrektur fuer IE 5.x */
+    width: 48.7em;
+    w\idth: 47.1em;
+  }
+
+div#header{
+	border:0px;
+	border-bottom:2px solid grey;
+		background:url('../../../images/temp1_logo.png');
+	height:150px;
+}
+div#content{
+	margin:0px;
+	padding:5px;
+	border:0px;
+	background:#FFFFFF;
+	border:0px;
+	border-right:2px solid grey;
+	border-left:2px solid grey;
+}
+div#footer{
+	margin:0px;
+	padding:0px;
+	line-height:30px;
+	height:25px;
+	vertical-align:bottom;
+	background:url('../../../images/temp1_footer_bg.png') #FFFFFF repeat-x;
+	
+	border:0px;
+	border-right:2px solid grey;
+	border-left:2px solid grey;
+	border-bottom:2px solid grey;
+}

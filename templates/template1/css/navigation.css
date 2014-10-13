@@ -1,0 +1,63 @@
+ul#Navigation {
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+}
+ul#Navigation li {
+	list-style: none;
+	float: left;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	border:2px solid #DF7401;
+	background:orange;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+ul#Navigation li ul {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 1.6em;
+	left: -0.1em;
+	display: none;
+}
+ul#Navigation li:hover ul {
+	display: block;
+}
+ul#Navigation li ul li {
+	float: none;
+	display: block;
+	margin-bottom: 0.2em;
+}
+ul#Navigation a{
+	display: block;
+	width: 6.4em;
+	padding: 0.2em 1.0em;
+	text-decoration: none;
+	color:#000000;
+}
+ul#Navigation a:hover{
+	color:#FF4000;
+}
+
+
+* html ul#Navigation li {  /* Korrektur fuer den IE 5 und 6 */
+    margin-bottom: -0.4em;
+  }
+  *:first-child+html ul#Navigation li {  /* Korrektur fuer den IE 7 */
+    margin-bottom: -0.1em;
+  }
+  * html ul#Navigation li ul {  /* Korrektur fuer IE 5.x */
+    left: -1.5em;
+    lef\t: -0.4em;
+  }
+  *:first-child+html ul#Navigation ul {  /* Workaround fuer den IE 7 */
+    background-color:silver; padding-bottom:0.4em;
+  }
+    * html ul#Navigation a, * html ul#Navigation span {
+    width: 8.6em;   /* Breite nach altem MS-Boxmodell fuer IE 5.x */
+    w\idth: 6.4em;  /* korrekte Breite fuer den IE 6 im standardkompatiblen Modus */
+  }
+  
